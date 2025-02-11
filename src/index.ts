@@ -19,7 +19,7 @@ async function startTyping() {
 
   while (true) {
     (channel as TextChannel).sendTyping();
-    await new Promise((resolve) => setTimeout(resolve, 5000)); // 5s delay
+    await new Promise((resolve) => setTimeout(resolve, 5000));
   }
 }
 
